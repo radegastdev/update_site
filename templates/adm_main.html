@@ -1,0 +1,33 @@
+{% extends "adm_base.html" %}
+
+{% block content %}
+<div class="item">
+<h1>Radegast Update Application</h1>
+<p>&nbsp;</p>
+<form action="/admin/" method="get">
+    <table border="0">
+        <tbody>
+            <tr>
+                <td style="width: 120px;">Current version</td>
+                <td><input type="text" name="new_version" value="{{ version }}" size="10"/></td>
+            </tr>
+            <tr>
+                <td>Download site</td>
+                <td><input type="text" name="new_site" value="{{ site }}" size="60"/></td>
+            </tr>
+            <tr>
+                <td>MOTD</td>
+                <td><input type="text" name="new_motd" value="{{ motd }}" size="60"/></td>
+            </tr>
+            <tr>
+                <td>Display MOTD</td>
+                <td><input type="checkbox" name="new_display_motd" {{ display_motd }}/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><input type="submit" name="set_version" value="Save" /></td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</div>
+{% endblock %}

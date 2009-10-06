@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="6757c891-d8cb-4dfd-852f-e1b7ccbac3ca" kpf_version="4" name="radegastupdate.kpf">
+<file id="be5690c2-bd98-4907-9978-edc452bbf876" idref="6757c891-d8cb-4dfd-852f-e1b7ccbac3ca" name="app.yaml" url="app.yaml">
+</file>
+<preference-set idref="6757c891-d8cb-4dfd-852f-e1b7ccbac3ca">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+<preference-set idref="be5690c2-bd98-4907-9978-edc452bbf876">
+</preference-set>
+</project>
