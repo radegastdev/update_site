@@ -6,7 +6,7 @@ from django.utils import simplejson
 from django.core import serializers
 
 class Settings(db.Model):
-    value = db.StringProperty(required = True)
+    value = db.StringProperty(required = True,  multiline=True)
 
 class Serializable:
     def get_dict(self):
